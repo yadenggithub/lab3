@@ -24,7 +24,9 @@ function validateForm() {
   // All fields are valid
   if(isFormValid === true) {
     console.log('Form submitted successfully');
+    alert("Form submitted successfully");
   } else {
     console.log('Form submission failed');
+    alert("Form submission failed");
   }
 }

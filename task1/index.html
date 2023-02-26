@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> My third lab work</title>
-    </head>
-    <body>
-    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-        <div>Username: <input id="username" type="text" name="name"></div>
-        <div>Email:    <input id="email" type="text" name="email"></div>
-        <div>Password: <input id="password" type="text" name="password" minlength="8"></div>
-        <div><input type="submit" value="Submit"></div>
-            
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My third lab work</title>
+</head>
+
+<body>
+    <form name="myForm" action="javascript:void(0);" onsubmit="return validateForm()" method="post">
+        Username: <input id="username" type="text" name="name"><br /><br />
+        Email: <input id="email" type="text" name="email"><br /><br />
+        Password: <input id="password" type="text" name="password" minlength="8"><br /><br />
+        <input type="submit" value="Submit">
     </form>
-        
     <script src="./script/script.js"></script>
 
-    </body>
+</body>
+
 </html>
